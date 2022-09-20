@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <RecipeDef>
+    <defName>latewinemed</defName>
+    <label>Make Late Medieval Medicine with Wine</label>
+    <description>A recipe for Late Medieval Medicine using Wine in place of Beer, for vinters.</description>
+    <jobString>Making Late Medieval Medicine.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <workAmount>700</workAmount>
+	<researchPrerequisite>LateMedievalMedicine</researchPrerequisite>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>VFEM_Wine</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>Cloth</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MedicineEarlyMedievalMM</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>VFEM_Wine</li>
+        <li>Cloth</li>
+		<li>MedicineEarlyMedievalMM</li>
+      </thingDefs>
+    </fixedIngredientFilter>    
+	<products>
+      <MedicineLateMedievalMM>1</MedicineLateMedievalMM>
+    </products>
+    <skillRequirements>
+        <Crafting>6</Crafting>
+        <Intellectual>8</Intellectual>
+    </skillRequirements>
+    <workSkill>Intellectual</workSkill>
+    <recipeUsers>
+        <li>CraftingSpot</li>
+		<li>DrugLab</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>
