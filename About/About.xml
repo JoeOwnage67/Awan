@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Chirurgie Patch</name>
+	<author>Sarah Twycross</author>
+    <packageId>Awan.Chirurgie.Patch</packageId>
+    <url></url>
+	<supportedVersions>
+		<li>1.3</li>
+	</supportedVersions>
+	<description>Combines the Entosomnia, Medieval Prosthetics and Medieval Medicine researches by Nunahur into a single tab 'Chirurgie' and reduces their tech costs significantly, along with making Entosomnia require both Ambroisen Limbs and Paresian Medicine. All the actual work here should be credited to Nunahur. The tech cost reduction is a personal choice. 
+	
+	Update 1: Made this mod have modular compatibility with VFE - Vikings and VFE - Medieval. You may now use Wine or Mead to make your Late Medieval Medicine, rather than solely using beer.
+	Update 2: Made this mod have modular compatibility with VFE - Settlers. May now use Chemshine to make LMM.</description>
+</ModMetaData>
